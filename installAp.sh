@@ -15,7 +15,7 @@ AP_IP=10.10.10.1
 AP_COUNTRY_CODE=DE
 AP_SSID=BirdNetwork
 AP_PW=BirdNetwork
-AP_CHANNEL=auto
+AP_CHANNEL=8  # if channel is already used by other ap, this scripot might fail. in that case try other channel
 
 # --- Install AP and Management Software --- #
 sudo apt install hostapd
